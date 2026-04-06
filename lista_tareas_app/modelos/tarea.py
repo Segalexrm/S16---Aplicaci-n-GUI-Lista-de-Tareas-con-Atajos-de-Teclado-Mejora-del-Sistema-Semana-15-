@@ -10,5 +10,5 @@ class Tarea:
     @descripcion.setter
     def descripcion(self, value: str):
         if not value or not value.strip():
-            raise ValueError("La descripción de la tarea no puede estar vacía.")
+            raise ValueError("La descripción no puede estar vacía.")
         self._descripcion = value.strip()
